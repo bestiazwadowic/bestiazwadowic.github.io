@@ -1,0 +1,18 @@
+.grid { 
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  }
+img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 300px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+img:hover {
+  box-shadow: 2px 2px 6px 0px  rgba(255, 0, 0, 0.3);
+  transition: 0.5s;
+  max-width: 310px;
+}

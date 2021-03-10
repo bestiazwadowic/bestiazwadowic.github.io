@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=pl>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+  <title>Bestia z Wadowic</title>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+      <div class="container">
+        <a class="navbar-brand">Bestia z Wadowic</a>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h4 class="text-center">"Imię moje jest Jan Paweł</br>Jam pół człowiek jest, pół diabeł"</h1>
+      <label class="form-label">Ilość papajów na stronie</label>
+      <select class="form-select" id="select-images-per-page">
+        <option value="4">4</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+        <option value="21">21</option>
+        <option value="37">37</option>
+        <option value="64">64</option>
+      </select>
+
+      </br>
+
+      <label class="form-label">Strona</label>
+      <select class="form-select" id="select-page"></select>
+
+      <div id="grid"></div>
+  </div>
+
+  <footer class="fixed-bottom border-top footer text-muted bg-dark">
+    <div class="container text-light">
+      &copy; 2021 - Bestia z Wadowic
+    </div>
+  </footer>
+</body>
+
+</html>
